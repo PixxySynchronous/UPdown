@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/UPdown/static/css/main.dc4d6ff2.css",
+    "main.js": "/UPdown/static/js/main.cf993779.js",
+    "static/js/453.bad77a65.chunk.js": "/UPdown/static/js/453.bad77a65.chunk.js",
+    "static/media/logo.svg": "/UPdown/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/UPdown/index.html",
+    "main.dc4d6ff2.css.map": "/UPdown/static/css/main.dc4d6ff2.css.map",
+    "main.cf993779.js.map": "/UPdown/static/js/main.cf993779.js.map",
+    "453.bad77a65.chunk.js.map": "/UPdown/static/js/453.bad77a65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.cf993779.js"
+  ]
+}
