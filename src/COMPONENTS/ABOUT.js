@@ -24,7 +24,7 @@ export default function ABOUT(props) {
   return (
             <div>
         <div className = "container" style = {myStyle}>
-            <h1>ABOUT US </h1>
+            <h1>ABOUT UP&down </h1>
         <div className= "accordion" id="accordionExample" style = {myStyle}>
         <div className= "accordion-item">
             <h2 className= "accordion-header" id="headingOne">
@@ -34,31 +34,33 @@ export default function ABOUT(props) {
             </h2>
             <div id="collapseOne" className= "accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div className= "accordion-body" style = {myStyle}>
-                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong>Summary:</strong>Our website offers a simple yet powerful utility to effortlessly convert your text between uppercase and lowercase. Whether you need to transform your text for professional documents, social media posts, or coding projects, our tool makes it quick and easy. Just paste your text, choose your desired case conversion, and get the result instantly — no complicated steps or software installations needed.
             </div>
             </div>
         </div>
         <div className= "accordion-item">
             <h2 className= "accordion-header" id="headingTwo">
             <button className= "accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" style = {myStyle} aria-controls="collapseTwo">
-                Accordion Item #2
+                Completly Free 
             </button>
             </h2>
             <div id="collapseTwo" className= "accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div className= "accordion-body" style = {myStyle}>
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong>No money.No ads</strong> We believe everyone should have access to efficient text tools without any cost barriers. That’s why our case conversion service is completely free to use, with no hidden fees or subscriptions. You can access it anytime, anywhere, and use it as many times as you want. It’s designed to be user-friendly for students, writers, programmers, and anyone who works with text daily.
             </div>
             </div>
         </div>
         <div className= "accordion-item">
             <h2 className= "accordion-header" id="headingThree">
             <button className= "accordion-button collapsed" type="button" style = {myStyle} data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Accordion Item #3
+                Dark Mode
             </button>
             </h2>
             <div id="collapseThree" className= "accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div className= "accordion-body" style = {myStyle}>
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong>No strain</strong> To make your experience more enjoyable, our website includes a sleek dark mode option. Whether you prefer a light interface or want to reduce eye strain during late-night work sessions, switching between light and dark modes is effortless. This feature ensures you can use the tool comfortably in any environment, making it perfect for prolonged or quick text editing tasks.
+
+
             </div>
             </div>
         </div>
