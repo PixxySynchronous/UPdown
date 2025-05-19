@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import PropTypes from 'prop-types'
 
 export default function FORM(props) {
     const [text,setText]= useState("Erase this and paste your text!");
@@ -23,8 +22,13 @@ export default function FORM(props) {
     const handleclick3= () =>{
       let newText =('')
       setText(newText)
-              props.showAlert("Cleared text!", "success")
+      props.showAlert("Cleared text!", "success")
 
+    }
+    const handleclick4=()=>{
+      navigator.clipboard.writeText(text) 
+      props.showAlert("Copied text!", "success")
+ 
     }
 
   return (
@@ -50,10 +54,11 @@ export default function FORM(props) {
         <button className="btn btn-primary" disabled={text.length===0} onClick={handleclick} style={{ backgroundColor: props.mode=== "light"? "grey": "black", color: "white"}}>CONVERT TO UPPERCASE</button>
         <button className='btn  mx-2'  disabled={text.length===0}  onClick={handleclick2}  style={{ backgroundColor: props.mode=== "light"? "grey": "black", color: "white"}}>convert to lowercase</button>
         <button className='btn mx-2'  disabled={text.length===0} onClick={handleclick3} style={{ backgroundColor: props.mode=== "light"? "grey": "black", color: "white"}}>Clear text</button>
+        <button className='btn mx-2'  disabled={text.length===0} onClick={handleclick4} style={{ backgroundColor: props.mode=== "light"? "grey": "black", color: "white"}}>Copy text</button>
 
         <div className='container mt-3'>
           <h1>ANALYSIS</h1>
-          <p>Number of characters = {text.length} and words = {text.trim() === "" ? 0 : text.trim().split(" ").length}</p>
+          <p>Number of characters = {text.length} and words = {text.trim() === "" ? 0 : text.trim().split(/\s+/).length}</p>
           <h2>PREVIEW</h2>
           <p>{text.length>0?text:"Nothing to preview!"}</p>
         </div>
