@@ -30,9 +30,10 @@ Edit
 │   ├── ALERT.js
 │   └── ABOUT.js
 └── index.js              # Entry point of the app
+
 Installation & Setup
 Clone the repository:
-git clone https://github.com/PixxySynchronous/text-utils-app.git
+git clone https://github.com/PixxySynchronous/UPdown.git
 cd text-utils-app
 
 Install dependencies:
